@@ -1,4 +1,4 @@
 <?php
 require_once("model.php");
-include("controlador_consultas.php");
+include("controlador-consultas.php");
 ?>
