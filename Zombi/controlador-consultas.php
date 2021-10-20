@@ -5,8 +5,8 @@ if (isset($_POST["estado"])) {
       $estado = "";
     }
 
-if(isset($_POST['nuevoZombi'])){
-	$nuevoZombi = htmlspecialchars($_POST['nuevoZombi']);
+if(isset($_POST["nuevoZombi"])){
+	$nuevoZombi = htmlspecialchars($_POST["nuevoZombi"]);
 }else{
 	$nuevoZombi = "";
 }
